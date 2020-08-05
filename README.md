@@ -9,19 +9,23 @@ The softwares availble are built using python3 and web application is built on f
 
 *clone the repo*
 
+*ensure bs4 directory is in the same directory where code is placed*
+
 *execute the command- **pip install pyinstaller***
 
 *execute the command-**pyinstaller scrapdemo.py***
 
 *enter the directory where repo is cloned and execute the exe files found in dist/scrapdemo*
 
-### Requirements to use codebase scraperfilter and converting it to software:
+### Requirements to use codebase Scrapperfilter and converting it to software:
 
 *Python  has to be installed*
 
 *scraperapi account is needed*
 
 *clone the repo*
+
+*ensure bs4 directory is in the same directory where code is placed*
 
 *execute the command- **pip install pyinstaller***
 
