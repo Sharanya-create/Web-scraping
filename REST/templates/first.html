@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scrapper</title>
+  <style>
+  #p{
+    text-align: center;
+    font-size: 34px;
+
+  }
+  #div{
+    text-align: center;
+  }
+  #b{
+    background-color:#8df153;
+    color:black;
+    height:100px;
+    width:200px;
+    font-size: 28px;
+    border-radius:40%;
+  }
+
+  </style>
+</head>
+
+<body background= "{{ url_for('static', filename='image/back1.jpg') }}">
+    <p style="font-size:78px;font-family:Brush Script MT;text-align:center;color:white">Click the button to Enter url.</p>
+
+    <div id="div">
+    <button  id= "b" onclick="myFunction()">Press</button>
+    <p id="p"><a  id="s" href="#">Extract The data </a></p></br>
+  </div>
+    <script>
+        function myFunction() {
+          var url = prompt("Please enter the url", "https://en.wikipedia.org/wiki/History_of_India");
+          if (url != null) {
+            document.getElementById("s").href ="http://api.scraperapi.com?api_key=52ebc366144a846306f837a876d21dda&url="+url;
+        }
+      }
+
+
+    </script>
+
+</body>
+</html>
