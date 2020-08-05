@@ -3,13 +3,17 @@ Includes web scraping softwares and codebase for scraper website interacting wit
 
 The softwares availble are built using python3 and web application is built on flask and using usual web development languages.
 
-### Requirements to use software scraperdemo:
+### Requirements to use codebase scraperdemo and convert it to software:
 
-*Python need not  be installed*
+*Python has to be installed*
 
 *clone the repo*
 
-*enter the directory where repo is cloned and execute the exe files*
+*execute the command- **pip install pyinstaller***
+
+*execute the command-**pyinstaller scrapdemo.py***
+
+*enter the directory where repo is cloned and execute the exe files found in dist/scrapdemo*
 
 ### Requirements to use codebase scraperfilter and converting it to software:
 
