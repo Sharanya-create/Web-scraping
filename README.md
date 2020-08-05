@@ -11,7 +11,7 @@ The softwares availble are built using python3 and web application is built on f
 
 *enter the directory where repo is cloned and execute the exe files*
 
-### Requirements to use codebase scraperfilter after converting to software:
+### Requirements to use codebase scraperfilter and converting it to software:
 
 *Python  has to be installed*
 
